@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(2, 103, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 103, 232, 1) 0%,
+    rgba(19, 123, 239, 1) 35%,
+    rgba(49, 171, 255, 1) 100%
+  );
+}
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 470px;
+  width: 270px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+p {
+  color: grey;
+  text-align: center;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 13px;
+}
+h1 {
+  text-align: center;
+  margin-top: 3px;
+}
+hr {
+  margin: 0;
+  border: 1px solid #eeeeeb;
+  align-self: center;
+  width: 90%;
+}
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: #4aa2fe;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+.fade {
+  color: rgb(187, 181, 181);
+}
+li {
+  margin: 7px 0px 7px -18px;
+}
+.buttonColorChange {
+  background-color: #007bfe;
+}
